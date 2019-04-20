@@ -16,7 +16,7 @@ while count < len(word) and len(failed) < limit:
         continue
     
     if c in inputted:
-        print("You have already inputted the word")
+        print("You have already inputted the character")
         continue
 
     found = False
